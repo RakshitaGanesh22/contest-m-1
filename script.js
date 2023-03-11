@@ -26,7 +26,7 @@ function performOperations() {
   if (isNaN(num1) || isNaN(num2)) {
     result.textContent = "Please enter valid numbers!";
   }
-  if (operator === "") {
+  if (operator == "") {
     result.textContent = "Please select an operator!";
   }
   const res = calculate(parseFloat(num1), parseFloat(num2), operator);
