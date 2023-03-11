@@ -11,6 +11,8 @@ function calculate(num1, num2, operator) {
   else if(operator=="/"){
     return num1/num2;
   }
+  else if(operator=="none"){
+    return null;
 }
 
 // ignore the function below
